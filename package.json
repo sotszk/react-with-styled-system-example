@@ -1,0 +1,23 @@
+{
+  "name": "react_with_styled_system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.17",
+    "@emotion/styled": "^10.0.17",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/styled-system": "^5.1.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-system": "^5.1.1",
+    "typescript": "^3.6.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}

@@ -7,13 +7,13 @@
     "start": "parcel index.html"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.17",
-    "@emotion/styled": "^10.0.17",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
+    "@types/styled-components": "^4.4.0",
     "@types/styled-system": "^5.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "styled-components": "^4.4.1",
     "styled-system": "^5.1.1",
     "typescript": "^3.7.3"
   },

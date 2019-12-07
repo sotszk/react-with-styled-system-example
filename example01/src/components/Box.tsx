@@ -1,14 +1,9 @@
 import React from 'react';
-import styled from '@emotion/styled'
-import { typography, space, color } from 'styled-system'
+import styled from 'styled-components';
+import { display, DisplayProps, typography, space, color, SpaceProps, ColorProps, TypographyProps } from 'styled-system'
 
-const Box = styled('div')(
-  {
-    fontSize: 80,
-    background: 'gray',
-    color: 'white',
-    padding: 24,
-  },
+const Box = styled('div')<DisplayProps & SpaceProps & ColorProps & TypographyProps>(
+  display,
   typography,
   space,
   color,
